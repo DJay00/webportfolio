@@ -1,0 +1,136 @@
+nav a {
+    font-family: 'Montserrat';
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #004E84 !important;
+}
+
+#landing {
+	background: #003363;
+}
+
+#projects {
+    background: #C2D9FF !important;
+}
+
+#tools {
+    background: #C2D9FF !important;
+}
+
+#text-title {
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height, or 133% */
+
+
+      color: #12C6FF;
+ }
+
+#landing p {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #FFFFFF;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #003363;
+}
+
+#contact-image {
+    background: linear-gradient(rgba(0, 34, 65, 0.8), rgba(0, 34, 65, 0.8)),
+                url("./images/building.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+
+#social-header {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+/* Social Icons Styling */
+.social-icon {
+    transition: transform 0.3s ease;
+/*    filter: brightness(0) invert(1); /* Makes icons white */*/
+}
+
+.social-icon:hover {
+    transform: scale(1.15);
+}
+
+/* Form Styling */
+#contact .form-label {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+#contact .form-control {
+    border: 2px solid #12C6FF;
+    border-radius: 4px;
+    padding: 0.75rem;
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+#contact .form-control:focus {
+    box-shadow: none;
+    border-color: #0099FF;
+    background: #FFFFFF;
+}
+
+#form-btn {
+    background-color: #12C6FF;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+#form-btn:hover {
+    background-color: #0099FF;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #contact-image {
+        padding: 3rem 1rem;
+    }
+    
+    .social-icon {
+        max-width: 40px !important;
+    }
+    
+    #contact .col-md-6 {
+        padding: 2rem 1rem;
+    }
+}
+
+footer {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    /* identical to box height, or 185% */
+
+    text-align: center;
+
+    color: #003363;
+
+}   
