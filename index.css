@@ -8,8 +8,13 @@ nav a {
     color: #004E84 !important;
 }
 
+#logo {
+    font-weight: bold;
+}
+
+
 #landing {
-	background: #003363;
+    background: #003363;
 }
 
 #projects {
@@ -25,9 +30,6 @@ nav a {
       font-weight: 700;
       font-size: 24px;
       line-height: 32px;
-      /* identical to box height, or 133% */
-
-
       color: #12C6FF;
  }
 
@@ -68,6 +70,12 @@ nav a {
 .social-icon:hover {
     transform: scale(1.15);
 }
+
+
+.social-icon {
+    max-width: 48px;
+}
+
 
 /* Form Styling */
 #contact .form-label {
